@@ -51,6 +51,13 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.generativeai)
     implementation(libs.gson)
+    implementation(libs.camera.core)
+    implementation(libs.androidx.camera.camera2)
+    implementation(libs.androidx.camera.view)
+    implementation(libs.androidx.camera.lifecycle)
+
+    implementation(libs.okhttp)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
